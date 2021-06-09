@@ -3,7 +3,7 @@ let cuerpo = document.querySelector("body");
 cuerpo.innerHTML= `<header> 
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
     <div class="container-fluid px-2 px-md-4 px-lg-5">
-        <a class="navbar-brand" href=""><img src="" alt="https://juankamilohuertas.github.io/prueba/index.html">Steje</a>
+        <a class="navbar-brand" href=""><img src="https://juankamilohuertas.github.io/prueba/index.html" alt="">Steje</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#colapso" aria-controls="colapso" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
