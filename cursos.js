@@ -14,7 +14,7 @@ let arr = [
     "uno","dos", "tres", "cuatro","uno","dos", "tres", "cuatro"
 ]
 let img = [
-    "https://github.com/juankamilohuertas/plataformaStj/imagenes/ojos.jpg",
+    "https://github.com/juankamilohuertas/prueba/imagenes/ojos.jpg",
     "/imagenes/redes_sociales.jpg"
 ];
 for (let index = 0; index <= arr.length -1; index++) {  // creando nodos de todo el contenido de los cursos 
