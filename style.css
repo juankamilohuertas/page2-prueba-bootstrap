@@ -1,3 +1,8 @@
+header{
+  
+   z-index: 4;
+   position: relative;
+}
 .img_parrafo_inicio{    /* poster de inicio */
     position: relative;
     background-image: URL("https://juankamilohuertas.github.io/prueba/imagenes/compu.jpg");
