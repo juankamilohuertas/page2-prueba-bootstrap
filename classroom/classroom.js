@@ -12,14 +12,14 @@ let arr = [
     "item9",
     "item10",
     "show",
-    "sedfsd"
+    "item11"
 ]
-for (let index = 0; index <= arr.length; index++) {
+for (let index = 0; index <= arr.length-1; index++) {
 listaDecursos.innerHTML += ` <div class="accordion" id="accordionExample">
 <div class="accordion-item border-0">
   <h2 class="accordion-header" id="headingOne">
     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-      Introduccion
+      ${arr[index]}
     </button>
   </h2>
   <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headi data-bs-parent="#accordionExample">
