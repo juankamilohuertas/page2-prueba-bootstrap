@@ -20,7 +20,7 @@ let img = [
 for (let index = 0; index <= arr.length -1; index++) {  // creando nodos de todo el contenido de los cursos 
     let layout_poster_cursos = document.createElement("div");
     layout_poster_cursos.classList.add("col-12", "col-sm-6", "col-lg-3", "mb-5");
-    layout_poster_cursos.innerHTML += `<div class="card p-3 mb-5 bg-body rounded" style="width: 100%; height: 100%">
+    layout_poster_cursos.innerHTML += `<div class="card shadow p-3 mb-5 bg-body rounded" style="width: 100%; height: 100%">
     <img src="${img[0]}" class="card-img-top" alt="...">
     <div class="card-body d-flex flex-column justify-content-center">
       <h5 class="card-title">Curso De Html: construye aplicasiones web</h5>
