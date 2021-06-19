@@ -9,22 +9,45 @@
     <script src="https://kit.fontawesome.com/d1b4062676.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
-<body>
+<body class="body_calssroom">
     <script src="https://juankamilohuertas.github.io/prueba/menu.js"></script>
-    <div >
-        <section class="container-fluid">
-            <div class="row">
-                <div class="listaCursos col-12 col-sm-4 overflow-auto vh-100"></div><!-- lista de cursos -->
-                <div class="col-12 col-sm-8 overflow-auto vh-100"><!-- videos de cursos -->
-                    <video controls class="w-100 sticky-top" style="z-index: 1;">
-                        <source src="/videos/diseño_ux.mov">
-                    </video>
-                    <footer class="footer bg-dark text-center text-white"></footer>
+    <button class="btnContenido btn btn-primary rounded-0 d-lg-block d-lg-none"><i class="fas fa-list-ul"></i> Contenido</button>
+        <section class="container-fluid w-100 p-0">
+            <div class="row w-100 m-0"><!-- lista de cursos -->
+                <div class="listaCursos vh-100 px-0 col-12 col-lg-4" style="padding-bottom: 70px;"></div>
+                <!-- videos de cursos -->
+                <div class="col-12 col-lg-8 vh-100 p-0">
+                    <div class="contenedor_video">
+                        <video controls class="h-100 w-100">
+                            <source src="/login-con-google-usando-javascript-oauth-2-configuracion-de-la-consola-de-google-1.mp4">
+                        </video>
+                    </div>
+                    <div class="contenedor_footer">
+                        <div class="row m-0 text-white" style="background-color: #003947;"><!-- tutor y descripcion de curso -->
+                            <div class="col-12 col-sm-3 d-flex justify-content-sm-center align-items-center">
+                                <img class="rounded-circle" height="60px" width="60px" src="/imagenes/ojos.jpg"      alt="Tutor"><span class="ms-3 py-4">Tutor</span>
+                            </div>
+                            <div class="col-12 col-sm-9">
+                                <h1>Curso De Viue.js</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores vitae laudantium adipisci nulla sequi maiores praesentium deserunt et. Animi tempora ex unde ipsa voluptates distinctio nobis adipisci quibusdam minima debitis.
+                                Neque ipsa magnam deleniti dolor sunt est nesciunt accusamus. Quibusdam accusamus consequatur et quam iste consectetur fugiat blanditiis, ipsum adipisci hic excepturi earum iure veritatis velit suscipit eum temporibus nulla.
+                                Rem dolore voluptate eum beatae ullam ipsum, veritatis quod ducimus laborum officia unde quasi labore autem obcaecati non debitis maxime explicabo ad sequi nam? Unde tenetur hic ex temporibus maiores?</p>
+                            </div>
+                            <div class="text-center"><h2>OTROS CURSOS</h2><!-- otros cursos -->
+                                <div class="d-flex justify-content-center my-3">
+                                    <div class="mx-3"><a class="d-block" href=""><img class="rounded" src="/imagenes/ojos.jpg" height="70" width="70" alt=""></a></div>
+                                    <div class="mx-3"><a class="d-block" href=""><img class="rounded" src="/imagenes/ojos.jpg" height="70" width="70" alt=""></a></div>
+                                    <div class="mx-3"><a class="d-block" href=""><img class="rounded" src="/imagenes/ojos.jpg" height="70" width="70" alt=""></a></div>
+                                    <div class="mx-3"><a class="d-block" href=""><img class="rounded" src="/imagenes/ojos.jpg" height="70" width="70" alt=""></a></div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <footer class="footer bg-dark text-center text-white"></footer>
+                    </div>
                 </div>
             </div>
         </section>
-    </div>
-
     <script src="https://juankamilohuertas.github.io/prueba/classroom/classroom.js"></script>
     <script src="https://juankamilohuertas.github.io/prueba/footer.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
