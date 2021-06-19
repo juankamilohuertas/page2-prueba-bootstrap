@@ -1,5 +1,10 @@
 let frag = document.createDocumentFragment();
 let listaDecursos = document.querySelector(".listaCursos");
+let btnContenido = document.querySelector(".btnContenido");
+let listaCursos = document.querySelector(".listaCursos");
+btnContenido.addEventListener("click", function(){
+  listaCursos.classList.toggle("visible"); 
+})
 let arr = [
     "item1",
     "item2",
@@ -12,7 +17,15 @@ let arr = [
     "item9",
     "item10",
     "show",
-    "item11"
+    "item11",
+    "item12",
+    "item13",
+    "item14",
+    "item15",
+    "item16",
+    "item17",
+    "item18",
+    "item19",
 ]
 for (let index = 0; index <= arr.length-1; index++) {
 listaDecursos.innerHTML += ` <div class="accordion" id="accordionExample">

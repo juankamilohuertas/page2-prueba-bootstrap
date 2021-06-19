@@ -13,24 +13,27 @@
 </head>
 <body class="text-dark">
 <script src="https://juankamilohuertas.github.io/prueba/menu.js"></script>
-<section class="container-fluid mb-1" style="font-family: 'Roboto', sans-serif;"> <!-- poster principal con un parrafo de intro y formulario -->
+<section class="container-fluid mb-1"> <!-- poster principal con un parrafo de intro y formulario -->
     <div class="row img_parrafo_inicio d-flex align-items-center">
         <div class="col-12 col-md-7 px-2 px-sm-3 px-md-4 d-flex justify-content-end">
-            <p class="fw-bold pt-0 pt-sm-5 pt-md-0 pb-0 text-white fs-5">
-                <span class="fw-bolder" style="font-size: 2.3rem;"> No desperdicies más tu tiempo </span><br>
+            <p class="fw-bold pt-0 pt-sm-5 pt-md-0 pb-0 text-white fs-5" style="font-family: 'Monda', sans-serif;">
+                <span class="fw-bolder fs-1" style="font-family: 'Roboto', sans-serif;"> No desperdicies más tu tiempo </span><br>
                 Descubre tus habilidades, inicia tu aprendizaje, aumenta tus ingresos y descubre lo que puedes lograr.
-                No esperes más aprende programación completamente gratis <a class="registrarse_p text-info" href="#registrarse">registrarte</a> e inicia tu aprendizaje ahora. <br>
-                <button type="button" class="btn mx-auto mt-2 fw-bold text-white bg-primary">
-                <i class="fas fa-laptop-code me-2"></i>Iniciar ahora</button>
+                No esperes más aprende programación completamente gratis
+                <a class="registrarse_p" style="color: #29b100;"href="#registrarse">
+                    registrarte
+                </a> e inicia tu aprendizaje ahora. <br>
+                <button type="button" class="btn mx-auto mt-2 fw-bolder text-white" style="background-color: #005f70;">
+                <i class="fas fa-laptop-code me-2"></i><code class="text-white">Iniciar Ahora</code></button>
             </p>
         </div>
         <div class="formulario col-12 col-md-5 p-0 " id="registrarse">
             <form class="form_hijo fst-normal py-2 py-sm-3 px-2 px-sm-5 px-md-0 me-0 me-md-4 me-lg-0" action="">
-              <p class="text-info w-100 p-0 m-0 text-center fw-bold" style="transform: scaleX(1);"><i class="fas fa-tasks me-2"></i>REGISTRARSE</p>
-                <label for="nombre">Nombre<input id="nombre" type="text" class="form-control fw-bold"></label>
-                <label for="apellido">Apellido<input id="apellido" type="text" class="form-control fw-bold"></label>
-                <label for="email">Email<input id="email" type="email" class="form-control fw-bold"></label>
-                <button class="btn btn-primary mt-3 fw-bold" type="submit bg-primary">Enviar</button>
+              <p class="w-100 p-0 m-0 text-center fw-bold" style="transform: scaleX(1); color: #29b100;"><i class="fas fa-tasks me-2"></i>REGISTRARSE</p>
+                <label for="nombre"><code class="text-white fs-6">Nombre</code><input id="nombre" type="text" class="form-control fw-bold"></label>
+                <label for="apellido"><code class="text-white fs-6">Apellido</code><input id="apellido" type="text" class="form-control fw-bold"></label>
+                <label for="email"><code class="text-white fs-6">Email</code><input id="email" type="email" class="form-control fw-bold"></label>
+                <button class="btn btn mt-3" type="submit" style="background-color: #005f70;"><code class="fw-bold text-white fs-6">Enviar</code></button>
             </form>
         </div>
     </div>
@@ -63,7 +66,7 @@
         </div>
     </div>
 </aside>
-<section class="py-5 px-2 px-sm-3 px-md-5 px-lg-3 px-xl-5" id="cursos" style="background-color: #ffffff;">   <!-- cursos -->
+<section class="py-5 px-2 px-sm-3 px-md-5 px-lg-3 px-xl-5" id="cursos" style="background-color: #005f70;">   <!-- cursos -->
     <div class="container-fluid px-0 px-xl-5">
         <div class="row contenedor_cursos"></div>
     </div>
