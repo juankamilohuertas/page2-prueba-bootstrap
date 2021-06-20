@@ -27,7 +27,7 @@ for (let index = 0; index <= arr.length -1; index++) {  // creando nodos de todo
       <p class="card-text"><i class="far fa-clock"></i> 2h 6m nivel intermedio</p>
       <p class="card-text text-warning"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
       <i class="fas fa-star"></i><i class="fas fa-star"></i> 4.5</p>
-      <a href="https://juankamilohuertas.github.io/prueba/classroom/classroom.html" class="btn btn-primary">Iniciar Curso</a>
+      <a href="https://juankamilohuertas.github.io/prueba/classroom/classroom.html" class="btn btn-success">Iniciar Curso</a>
     </div>
   </div>`;
     contenedorCursos.appendChild(layout_poster_cursos);  

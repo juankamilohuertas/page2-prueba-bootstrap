@@ -89,3 +89,9 @@
     .contenedor_footer{z-index: -1;}
 }/* lista de contenido de los cursos */
 .visible{transform: translateX(0%);}
+/* novedades */
+.conte_novedades div{
+    display: flex;
+    justify-content: center;
+    margin: 1% 0;
+}
